@@ -76,7 +76,10 @@
 				</div>
 				<div class="menu-right">
 					<a href="#"
-						><img src="https://i.pravatar.cc/40" alt="Ava" class="rounded-full"
+						><img
+							src="https://i.pravatar.cc/40?img=19"
+							alt="Ava"
+							class="rounded-full"
 					/></a>
 				</div>
 			</div>
