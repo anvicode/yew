@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import FeedView from '../views/FeedView.vue'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
+import MessagesView from '../views/MessagesView.vue'
 import SignupView from '../views/SignupView.vue'
 
 const router = createRouter({
@@ -26,6 +27,11 @@ const router = createRouter({
 			path: '/feed',
 			name: 'feed',
 			component: FeedView
+		},
+		{
+			path: '/messages',
+			name: 'messages',
+			component: MessagesView
 		},
 		{
 			path: '/about',
