@@ -3,6 +3,7 @@ import FeedView from '../views/FeedView.vue'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import MessagesView from '../views/MessagesView.vue'
+import SearchView from '../views/SearchView.vue'
 import SignupView from '../views/SignupView.vue'
 
 const router = createRouter({
@@ -32,6 +33,11 @@ const router = createRouter({
 			path: '/messages',
 			name: 'messages',
 			component: MessagesView
+		},
+		{
+			path: '/search',
+			name: 'search',
+			component: SearchView
 		},
 		{
 			path: '/about',

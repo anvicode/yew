@@ -2,20 +2,18 @@
 	<div class="max-w-7xl mx-auto grid grid-cols-4 gap-4">
 		<div class="main-left col-span-1">
 			<div class="p-4 bg-white border border-gray-200 text-center rounded-lg">
-				<img
-					src="https://i.pravatar.cc/300?img=19"
-					alt="Avatar"
-					class="mb-6 rounded-full"
-				/>
-				<p class="font-bold">Anvicode</p>
+				<img src="https://i.pravatar.cc/300?img=19" class="mb-6 rounded-full" />
+
+				<p><strong>Anvicode</strong></p>
+
 				<div class="mt-6 flex space-x-8 justify-around">
-					<p class="text-xs text-gray-500">180 friends</p>
+					<p class="text-xs text-gray-500">182 friends</p>
 					<p class="text-xs text-gray-500">120 posts</p>
 				</div>
 			</div>
 		</div>
+
 		<div class="main-center col-span-2 space-y-4">
-			<!-- input -->
 			<div class="bg-white border border-gray-200 rounded-lg">
 				<div class="p-4">
 					<textarea
@@ -23,39 +21,43 @@
 						placeholder="What are you thinking about?"
 					></textarea>
 				</div>
+
 				<div class="p-4 border-t border-gray-100 flex justify-between">
 					<a
 						href="#"
 						class="inline-block py-4 px-6 bg-gray-600 text-white rounded-lg"
 						>Attach image</a
 					>
+
 					<a
 						href="#"
 						class="inline-block py-4 px-6 bg-purple-600 text-white rounded-lg"
-						>Posts</a
+						>Post</a
 					>
 				</div>
 			</div>
-			<!-- post -->
+
 			<div class="p-4 bg-white border border-gray-200 rounded-lg">
 				<div class="mb-6 flex items-center justify-between">
 					<div class="flex items-center space-x-6">
 						<img
 							src="https://i.pravatar.cc/300?img=19"
-							alt="Ava"
 							class="w-[40px] rounded-full"
 						/>
-						<p class="font-bold">Anvicode</p>
+
+						<p><strong>Anvicode</strong></p>
 					</div>
+
 					<p class="text-gray-600">18 minutes ago</p>
 				</div>
+
 				<img
 					src="https://images.unsplash.com/photo-1595017013941-cab3d4c8d02f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
 					class="w-full rounded-lg"
 				/>
-				<div class="m-6 flex justify-between">
+
+				<div class="my-6 flex justify-between">
 					<div class="flex space-x-6">
-						<!-- likes -->
 						<div class="flex items-center space-x-2">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +76,7 @@
 
 							<span class="text-gray-500 text-xs">82 likes</span>
 						</div>
-						<!-- comments -->
+
 						<div class="flex items-center space-x-2">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +96,7 @@
 							<span class="text-gray-500 text-xs">0 comments</span>
 						</div>
 					</div>
-					<!-- dots -->
+
 					<div>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +115,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- post -->
+
 			<div class="p-4 bg-white border border-gray-200 rounded-lg">
 				<div class="mb-6 flex items-center justify-between">
 					<div class="flex items-center space-x-6">
@@ -122,17 +124,17 @@
 							class="w-[40px] rounded-full"
 						/>
 
-						<p class="font-bold">Anvicode</p>
+						<p><strong>Anvicode</strong></p>
 					</div>
 
-					<p class="text-gray-600">28 minutes ago</p>
+					<p class="text-gray-600">18 minutes ago</p>
 				</div>
 
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-					deleniti amet voluptatibus, iusto repellat quia nobis nulla tenetur
-					inventore necessitatibus sunt, hic dolor optio, libero molestiae? A
-					eligendi incidunt impedit.
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+					debitis ipsum minima vel, est accusantium culpa magnam quod commodi
+					rem! Corporis vitae qui laboriosam recusandae voluptas quos rem,
+					veritatis repellendus?
 				</p>
 
 				<div class="my-6 flex justify-between">
@@ -195,133 +197,24 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="main-right col-span-1 space-y-4">
-			<!-- People you may know -->
-			<div class="p-4 bg-white border border-gray-200 rounded-lg">
-				<h3 class="mb-6 text-xl">People you may know</h3>
-				<div class="space-y-4">
-					<div class="flex items-center justify-between">
-						<div class="flex items-center space-x-2">
-							<img
-								src="https://i.pravatar.cc/300?img=19"
-								class="w-[40px] rounded-full"
-							/>
+			<PeopleYouMayKnow />
 
-							<p class="text-xs"><strong>Anvicode</strong></p>
-						</div>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Show</a
-						>
-					</div>
-
-					<div class="flex items-center justify-between">
-						<div class="flex items-center space-x-2">
-							<img
-								src="https://i.pravatar.cc/300?img=19"
-								class="w-[40px] rounded-full"
-							/>
-
-							<p class="text-xs"><strong>Anvicode</strong></p>
-						</div>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Show</a
-						>
-					</div>
-
-					<div class="flex items-center justify-between">
-						<div class="flex items-center space-x-2">
-							<img
-								src="https://i.pravatar.cc/300?img=19"
-								class="w-[40px] rounded-full"
-							/>
-
-							<p class="text-xs"><strong>Anvicode</strong></p>
-						</div>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Show</a
-						>
-					</div>
-				</div>
-			</div>
-			<!-- Trends -->
-			<div class="p-4 bg-white border border-gray-200 rounded-lg">
-				<h3 class="mb-6 text-xl">Trends</h3>
-				<div class="space-y-4">
-					<div class="flex items-center justify-between">
-						<p class="text-xs">
-							<strong>#anvicode</strong><br />
-							<span class="text-gray-500">180 posts</span>
-						</p>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Explore</a
-						>
-					</div>
-
-					<div class="flex items-center justify-between">
-						<p class="text-xs">
-							<strong>#anvicode</strong><br />
-							<span class="text-gray-500">180 posts</span>
-						</p>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Explore</a
-						>
-					</div>
-
-					<div class="flex items-center justify-between">
-						<p class="text-xs">
-							<strong>#anvicode</strong><br />
-							<span class="text-gray-500">180 posts</span>
-						</p>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Explore</a
-						>
-					</div>
-
-					<div class="flex items-center justify-between">
-						<p class="text-xs">
-							<strong>#anvicode</strong><br />
-							<span class="text-gray-500">180 posts</span>
-						</p>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Explore</a
-						>
-					</div>
-
-					<div class="flex items-center justify-between">
-						<p class="text-xs">
-							<strong>#anvicode</strong><br />
-							<span class="text-gray-500">180 posts</span>
-						</p>
-
-						<a
-							href="#"
-							class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg"
-							>Explore</a
-						>
-					</div>
-				</div>
-			</div>
+			<Trends />
 		</div>
 	</div>
 </template>
+
+<script lang="vue">
+import PeopleYouMayKnow from '../components/PeopleYouMayKnow.vue'
+import Trends from '../components/Trends.vue'
+
+export default {
+	name: 'FeedView',
+	components: {
+		PeopleYouMayKnow,
+		Trends
+	}
+}
+</script>
